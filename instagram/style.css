@@ -13,6 +13,7 @@ body {
     background-color: rgb(243, 243, 243);
     margin: 0;
     padding: 0;
+    display: flex;
     justify-content: center;
 
 }
@@ -20,7 +21,7 @@ body {
 .instagram-wraper {
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
     width: 60%;
     height: 100vh;
 }
@@ -133,3 +134,26 @@ body {
 }
 
 /* media queries */
+
+@media (max-width: 1024) {
+    .instagram-wraper { 
+        width: 90%;
+    }
+}
+@media (max-width: 650px) {
+    .body {
+        background-color: #ffffff;
+    }
+    .instagram-wraper{
+        width: 90%;
+    }
+    .instagram-phone {
+        display: none;
+    }
+    .instagram-continue {
+        width: 100%;
+    }
+    .group {
+        border: 1px solid transparent;
+    }
+}
