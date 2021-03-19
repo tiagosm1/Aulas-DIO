@@ -1,0 +1,21 @@
+body{
+    background-color: aqua;
+}
+
+.photo {
+    border-radius: 1000px;
+    border: brown;
+}
+
+#title, .subtitle{
+    color: black;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 50px;
+}
+.post{
+    background-color: purple;
+    padding: 10px 50px 5px 0;
+    border: 3px solid black;
+    margin: 10px;
+}
+
